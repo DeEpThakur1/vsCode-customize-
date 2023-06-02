@@ -1,0 +1,116 @@
+{
+    "workbench.startupEditor": "none",
+
+     //font size  
+    "editor.fontSize": 18,
+
+
+    // delete dialog disable
+
+    "explorer.confirmDelete": false,
+
+
+
+ //   automatic update import file name no need edit if you move end rename
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    //my favorite icon 
+
+    "workbench.iconTheme": "material-icon-theme",
+
+    //my favorite font
+    "editor.fontFamily": "Operator Mono",
+
+    // i am always on word wrap on 
+
+    "editor.wordWrap": "on",
+
+    "files.exclude": {
+        "": true
+    },
+
+    // no need prettier extension you save file and automatic format
+
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+
+    // if you not like vs code default icon change 
+    "workbench.productIconTheme": "fluent-icons",
+    "security.workspace.trust.untrustedFiles": "open",
+
+
+  // aws toolkit extension
+    "aws.suppressPrompts": {
+        "codeWhispererConnectionExpired": true
+    },
+
+
+    // this is next level feature
+    "editor.stickyScroll.enabled": true,
+
+
+    // if you need read and understand
+
+    "explorer.confirmDragAndDrop": false,
+    "CodeGPT.model": "gpt-4",
+    "editor.defaultColorDecorators": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "files.autoSave": "onFocusChange",
+    "editor.linkedEditing": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+
+
+    "explorer.fileNesting.enabled": true,
+    "window.zoomLevel": 1,
+
+    "diffEditor.ignoreTrimWhitespace": false,
+       "terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+
+       
+
+   /// colorize your bracket indent lines some customizations
+
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+ 
+    "editor.guides.bracketPairs": true,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.bracketPairsHorizontal": "active",
+  
+
+      ///bracket color
+
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#FFB86C",
+        "editorBracketHighlight.foreground2": "#df83df",
+        "editorBracketHighlight.foreground3": "#45A9F9",
+        "editorBracketHighlight.foreground4": "#FF75B5",
+        "editorBracketHighlight.foreground5": "#B084EB",
+        "editorBracketHighlight.foreground6": "#19f9d8",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+    },
+
+
+    // auto closing tag for  HTML, js, ts, 
+
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+
+    //auto import files
+
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+
+
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
